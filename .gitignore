@@ -1,0 +1,13 @@
+# Build output
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Secrets
+.env
+
+# Misc
+*.log
+.DS_Store

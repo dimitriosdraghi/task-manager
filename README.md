@@ -54,6 +54,18 @@ Send the token in the header: `Authorization: Bearer <token>`
 | 404 | Task not found |
 | 409 | Username already exists |
 
+## Screenshots
+
+Requests sent with Postman.
+
+| Register (201) | Create a task (201) |
+|---|---|
+| ![Register](docs/screenshots/01-register.png) | ![Create a task](docs/screenshots/02-create-task.png) |
+
+| Someone else's task (403) | ADMIN sees all tasks (200) |
+|---|---|
+| ![Forbidden](docs/screenshots/03-forbidden.png) | ![Admin](docs/screenshots/04-admin.png) |
+
 ## Run with Docker (recommended)
 
 Requires only [Docker](https://www.docker.com/products/docker-desktop/).
